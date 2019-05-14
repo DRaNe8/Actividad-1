@@ -10,6 +10,8 @@ public class CalcularPeriodo {
 		LocalDate fecha = LocalDate.of(1492, Month.OCTOBER, 12);
 		// Mostramos cuánto tiempo ha pasado
 		System.out.println(calcularPeriodo("El descubrimiento de América", fecha));
+		System.out.println(calcularPeriodo("Mi nacimiento", LocalDate.of(1992, 4, 14)));
+		System.out.println(calcularPeriodo("Nacimiento de mi hermano", LocalDate.of(1989, 10, 10)));
 
 	}
 
