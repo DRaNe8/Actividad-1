@@ -12,7 +12,7 @@ public class CalcularPeriodo {
 		System.out.println(calcularPeriodo("El descubrimiento de América", fecha));
 		System.out.println(calcularPeriodo("Mi nacimiento", LocalDate.of(1992, 4, 14)));
 		System.out.println(calcularPeriodo("Nacimiento de mi hermano", LocalDate.of(1989, 10, 10)));
-
+		System.out.println(calcularPeriodo("Nacimiento de Alba", LocalDate.of(2000, 02, 18)));
 	}
 
 	public static String calcularPeriodo(String nombre, LocalDate fecha) {
